@@ -1,3 +1,15 @@
+@font-face { font-family: "Hermit NF Mono Regular";
+  src:
+    url("assets/fonts/Hermit/HurmitNerdFontMono-Regular.otf") format("opentype")
+    
+}
+
+/* Franklin Gothic Medium 21pt for headlines inside windows */
+@font-face { font-family: "Inter";
+  src:
+url("assets/fonts/Hermit/HurmitNerdFontMono-Bold.otf") format("opentype")
+}
+
 :root {
 
     /* background colors */
@@ -23,4 +35,7 @@
     --s-color:#9399b240;        /* selections */
 
     /* catppuccin mocha :3 */
+
+    /* I've set the height of the top bar as a variable because other items and sticky depend on it*/
+    --top-height:72px;
 }
