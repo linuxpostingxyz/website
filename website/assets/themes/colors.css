@@ -1,0 +1,26 @@
+:root {
+
+    /* background colors */
+
+    --bg: #1e1e2e;
+    --bg-darker:#181825;        /* background colors */
+    --bg-darkest:#11111b;
+
+    --fg:#313244;
+    --fg-lighter:#45475a;       /* whatever is on top of the background */
+    --fg-lightest:#585b70;
+
+    --ov:#6c7086;
+    --ov-lighter:#7f849c;       /* overlays */
+    --ov-lightest:#9399b2;
+
+
+    /* text colors */
+    --t-color:#cdd6f4;          /* text color */
+    --h-color:#cdd6f4;          /* headline color */
+    --sh-color:#7f849c;         /* sub-headline color */
+    --a-color:#89b4fa;          /* links */
+    --s-color:#9399b240;        /* selections */
+
+    /* catppuccin mocha :3 */
+}

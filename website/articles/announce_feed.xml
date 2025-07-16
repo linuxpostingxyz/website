@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /announcements/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>linuxposting.xyz announcements</title>
+        <link>https://linuxposting.xyz/</link>
+        <category>announcements</category>
+        <ttl>1440</ttl>
+        <!-- TODO: image element -->
+        <language>en</language>
+        <description>Changes and updates to the services hosted by linuxposting.xyz</description>
+        {% for announcement in site.announce %}
+        <item>
+            <title>{{ announcement.title }}</title>
+            <link>{{ site.url }}{{ announcement.url }}</link>
+            <description>{{ announcement.description | strip_html | truncate: 200 }}</description>
+            <pubDate>{{ announcement.date | date_to_xmlschema }}</pubDate>
+            <guid isPermaLink="false">{{ site.url }}{{ announcement.url }}</guid>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>

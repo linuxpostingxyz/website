@@ -1,0 +1,14 @@
+- url: /
+  title: Home
+- url: "#"
+  title: About
+- url: "#"
+  title: Linuxposting News
+- url: "#"
+  title: Site Announcements
+- url: "/register"
+  title: Register for Accounts
+- url: "#"
+  title: View Molly's Page
+- url: "#"
+  title: Contact Us

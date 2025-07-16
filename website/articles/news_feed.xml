@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /news/feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>linuxposting.xyz newsletter</title>
+        <link>https://linuxposting.xyz/</link>
+        <category>tech</category>
+        <ttl>1440</ttl>
+        <!-- TODO: image element -->
+        <language>en</language>
+        <description>The funny news articles linuxposting.xyz makes</description>
+        {% for article in site.news %}
+        <item>
+            <title>{{ article.title }}</title>
+            <link>{{ site.url }}{{ article.url }}</link>
+            <description>{{ article.description | strip_html | truncate: 200 }}</description>
+            <pubDate>{{ article.date | date_to_xmlschema }}</pubDate>
+            <guid isPermaLink="false">{{ site.url }}{{ article.url }}</guid>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
