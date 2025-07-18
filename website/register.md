@@ -4,9 +4,9 @@ layout: default
 headline: Account Registration
 ---
 
-### How to Register for accounts on linuxposting.xyz
+## Rabout
 
-
+This page will explain how to get accounts for various services on linuxposting.xyz
 
 ## Requisites
 

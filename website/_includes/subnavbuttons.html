@@ -1,0 +1,10 @@
+
+
+{% assign subnav_offset = site.data.nav.main.size %}
+
+{% for item in site.data.nav.sub %}
+{% assign subnav_index = forloop.index | plus: subnav_offset %}
+<a href="{{ item.url }}"
+class="button {% if item.idn %}btn-{{item.idn}}{% endif %}"
+id="btn-{{ subnav_index }}">{{ item.title }}</a>
+{% endfor %}
