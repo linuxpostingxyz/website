@@ -1,4 +1,3 @@
-
 title: linuxposting.xyz
 description: >-
   Linux users having fun i guess...
@@ -10,10 +9,6 @@ defaults:
       layout: default
       title: "linuxposting.xyz"
       headline: "linuxposting.xyz"
-
-# Build settings
-plugins:
-  - jekyll-feed
 
 collections_dir: articles
 collections:

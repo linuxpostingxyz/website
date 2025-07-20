@@ -73,7 +73,7 @@
                 <h5>Announcements</h5>
                 {% for announcement in site.announce %}
                 <p>
-                    <a href="{{ announcement.url }}">{{ announcement.title }}</a>
+                    <a href="{{ announcement.url }}">{{ announcement.headline }}</a>
                 </p>
                 {% else %}
                 <p>No announcements available at the moment.</p>
@@ -89,7 +89,7 @@
                 <h5>NEWS NEWS NEWS</h5>
                 {% for article in site.news %}
                 <p>
-                    <a href="{{ article.url }}">{{ article.title }}</a>
+                    <a href="{{ article.url }}">{{ article.headline }}</a>
                 </p>
                 {% else %}
                 <p>No news articles available at the moment.</p>

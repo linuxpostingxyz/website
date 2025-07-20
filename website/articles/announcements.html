@@ -1,0 +1,27 @@
+---
+permalink: /announcements.html
+title: Announcements
+layout: default
+headline: Announcements
+---
+
+<p>Announcements from linuxposting.xyz will appear below</p>
+
+<h2>Recent announcements</h2>
+
+{% if site.announce.size > 0 %}
+<table class="mainnewslist">
+    {% for post in site.announce %}
+    <tr class="mainnewsitem">
+        <td class="mn_title">
+            <a href="{{ post.url | relative_url }}">{{ post.headline }}</a>
+        </td>
+        <td class="mn_date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No announcements yet.</p>
+{% endif %}
