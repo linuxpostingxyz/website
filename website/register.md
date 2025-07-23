@@ -20,14 +20,14 @@ If you do qualify, you can ask for personal and/or tech accounts
 
 ## Registration
 
-In order to register, please send us an email to account@linuxposting.xyz. We will save this address in order to contact you about your account(s). We also recommend you share a second email address with us, in case you lose access to the first one
+In order to register, please send us an email to email@account@linuxposting.xyz. We will save this address in order to contact you about your account(s). We also recommend you share a second email address with us, in case you lose access to the first one
 
 This is how we want you to share this data with us. You can duplicate keys if you want multiple accounts, or skip them if you don't want one. The arrows explain what each key is for. Feel free to copy and paste this
 
-> contact: email@example.com <-- second email that you can contact us from. for example, if you ever need to get a password reset
-> email: username
-> matrix: username
-> wafrn: email@example.com <-- email that you'll be registering with on w.linuxposting.xyz
+> contact: !email@example.com <-- second email that you can contact us from. for example, if you ever need to get a password reset  
+> email: username  
+> matrix: username  
+> wafrn: !email@example.com <-- email that you'll be registering with on w.linuxposting.xyz
 
 ## Response
 
@@ -45,16 +45,16 @@ Molly the Example Mouse [image of her] would like some accounts.
 
 She sends an email as follows:
 
-> FROM: molly@example.com TO: account@linuxposting.xyz
+> FROM: email@molly@example.com TO: email@account@linuxposting.xyz
 > SUBJECT: Accounts
 > > hi, i'm molly and I'd like some accounts on your website please
 > >
-> > email: molly@linuxposting.xyz
+> > email: !molly@linuxposting.xyz
 > > wafrn: molly-the-example-mouse
 > > wafrn: baloo-file-official
 > >
 > > thank you!
 
-It is then verified that she runs the @baloo-file-official tumblr account, and she recieves the accounts requested. Notice that she didn't add a contact field. This is because she didn't have another email.
+It is then verified that she runs the @baloo-file-official tumblr account, and she receives the accounts requested. Notice that she didn't add a contact field. This is because she didn't have another email.
 
 
