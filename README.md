@@ -7,10 +7,9 @@ Set up your environment by running:
 ```bash
 cd website/
 bundle install
-cd ..
 ```
 
-Run the site with:
+While in the `website` subdirectory, run the site with:
 
 ```bash
 bundle exec jekyll serve
