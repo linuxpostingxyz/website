@@ -1,4 +1,5 @@
 ---
+# cspell: words endcomment endfor xmlschema
 layout: null
 permalink: /news/feed.xml
 ---
@@ -9,7 +10,9 @@ permalink: /news/feed.xml
         <link>https://linuxposting.xyz/</link>
         <category>tech</category>
         <ttl>1440</ttl>
+        {% comment %}
         <!-- TODO: image element -->
+        {% endcomment %}
         <language>en</language>
         <description>The funny news articles linuxposting.xyz makes</description>
         {% for article in site.news %}

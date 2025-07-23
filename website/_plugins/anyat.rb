@@ -41,6 +41,7 @@ module Jekyll
 
     def process_anyat(input, config)
       return input unless input.is_a?(String)
+      # cspell: ignore noconvert
       
       # Optional ! for no conversion (use double bang to show how to use bang)
       # optional = or $ for raw link or raw username

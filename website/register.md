@@ -1,4 +1,6 @@
 ---
+# cspell: words Rabout Rexample
+# cspell: words btrfs steamos baloo-file
 title: Account Registration
 layout: default
 headline: Account Registration
@@ -56,5 +58,3 @@ She sends an email as follows:
 > > thank you!
 
 It is then verified that she runs the @baloo-file-official tumblr account, and she receives the accounts requested. Notice that she didn't add a contact field. This is because she didn't have another email.
-
-
