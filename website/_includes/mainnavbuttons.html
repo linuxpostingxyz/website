@@ -1,5 +1,6 @@
 {% for item in site.data.nav.main %}
 <a href="{{ item.url }}"
 class="button {% if item.idn %}btn-{{item.idn}}{% endif %}"
+{% if item.target %}target="{{ item.target }}"{% endif %}
 id="btn-{{forloop.index}}">{{ item.title }}</a>
 {% endfor %}

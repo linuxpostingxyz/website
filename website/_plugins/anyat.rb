@@ -18,7 +18,7 @@ module Jekyll
       end
       if config['settings']['process_collections'] == true
         combined_applicable += site.collections.values.map(&:docs).flatten
-      elif config['settings']['process_collections'].is_a?(Array)
+      elsif config['settings']['process_collections'].is_a?(Array)
         for collection_name in config['settings']['process_collections']
           if site.collections.key?(collection_name)
             combined_applicable += site.collections[collection_name].docs

@@ -24,6 +24,7 @@ main:
   - title: Molly's Page
     url: https://molly.linuxposting.xyz/
     idn: 'molly'
+    target: '_blank'
 sub:
   - title: Register
     url: /register/

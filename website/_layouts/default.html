@@ -13,12 +13,6 @@
             <h1>{{ page.headline }}</h1>
             <form action="#">
                 <input type="text" placeholder="Search.." name="search">
-                <!-- FIXME: the search icon should either be added manually
-                using the unicode and adding nerdfonts as a fallback
-                font, or by @importing the nerdfont css file which
-                will add the icon using 'content:' just by the class.
-                Here you have marked it as both while not adding
-                nerdfonts as a font in any way. -->
                 <button type="submit"><i class="nerd nf-fa-search"> </i></button>
             </form>
         </div>
@@ -79,14 +73,19 @@
                 <p>No announcements available at the moment.</p>
                 {% endfor %}
                 </div>
-                <a href="/feed.xml" class="button-small">
-                    <img src="/assets/img/icon.png">RSS Feed
-                    <!-- Pixel Molly with 'RSS icon' icon -->
-            </a>
+                <div class="news-button-area">
+                    <a href="/announcements/" class="button-small">
+                        <img src="/assets/img/icon.png">Read More
+                    </a>
+                    <a href="/announcements/feed.xml" class="button-small">
+                        <img src="/assets/img/icon.png">RSS Feed
+                        <!-- Pixel Molly with 'RSS icon' icon -->
+                    </a>
+                </div>
             </div>
             <div class="news">
             <div class="news-item">
-                <h5>NEWS NEWS NEWS</h5>
+                <h5>NEWSLETTER</h5>
                 {% for article in site.news %}
                 <p>
                     <a href="{{ article.url }}">{{ article.headline }}</a>
@@ -95,11 +94,16 @@
                 <p>No news articles available at the moment.</p>
                 {% endfor %}
             </div>
-            <a href="#" class="button-small">
-                    <img src="/assets/img/icon.png">Read more
-                    <!-- Pixel Molly with 'RSS icon' icon -->
-            </a>
+            <div class="news-button-area">
+                <a href="/news/" class="button-small">
+                        <img src="/assets/img/icon.png">Read more
+                </a>
+                <a href="/news/feed.xml" class="button-small">
+                        <img src="/assets/img/icon.png">RSS Feed
+                        <!-- Pixel Molly with 'RSS icon' icon -->
+                </a>
             </div>
+
         </div>
         </div>
         <!-- Oneko does not like eating mice, just chasing them.
