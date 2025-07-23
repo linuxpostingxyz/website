@@ -2,14 +2,14 @@
 
 ## About
 
-Set up your environment by running:
+Set up your environment by installing `ruby` and running...
 
 ```bash
 cd website/
 bundle install
 ```
 
-While in the `website` subdirectory, run the site with:
+While in the `website` subdirectory, run the site with...
 
 ```bash
 bundle exec jekyll serve
