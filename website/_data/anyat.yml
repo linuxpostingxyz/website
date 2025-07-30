@@ -17,6 +17,13 @@ settings:
   #  you want to process.
   process_collections: true
 
+# Default linker to use if no platform is specified.
+# This allows @'s of the format [platform]@username[@domain], allowing
+#  implicit platform.
+# For example, if default_platform was twitter, then @user would be
+#  equivalent to twitter@user.
+#default_platform: email
+
 # Linkers configuration
 # Each linker defines how to format and link a specific platform or service.
 # The badge will display an icon showing what the link is for.
@@ -51,7 +58,7 @@ linkers:
     format_domain: "@^u@^d"
     link: "https://w.linuxposting.xyz/blog/^u"
     link_domain: "https://w.linuxposting.xyz/blog/@^u@^d"
-  fedi: mainwafrn # alias fedi to use wafrn
+  fedi: mainwafrn
   mainwafrn: # For less clunky main wafrn links
     badge: "w"
     format: "@^u"
@@ -61,9 +68,14 @@ linkers:
   matrix:
     badge: "[M]"
     domain: "linuxposting.xyz" # default domain is local
-    format: "@^u"
+    # format: "@^u"
     format_domain: "@^u:^d"
     link_domain: "https://matrix.to/#/@^u:^d"
+  mroom: # matrix room
+    badge: "[M]"
+    domain: "linuxposting.xyz"
+    format_domain: "#^u:^d"
+    link_domain: "https://matrix.to/#/#^u:^d"
   mail: email
   email:
     badge: "\U000f01ee" # nf-md-email
@@ -93,7 +105,3 @@ linkers:
     badge: "\U000f044d" # nf-md-reddit
     format: "u/^u"
     link: "https://reddit.com/u/^u"
-  subreddit:
-    badge: "\U000f044d" # nf-md-reddit
-    format: "r/^u"
-    link: "https://reddit.com/r/^u"

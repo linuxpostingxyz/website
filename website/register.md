@@ -2,7 +2,6 @@
 # cspell: words Rabout Rexample
 # cspell: words btrfs steamos baloo-file
 title: Account Registration
-layout: default
 headline: Account Registration
 ---
 

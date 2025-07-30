@@ -48,26 +48,39 @@ module Jekyll
       # platform@username@domain
       # or platform@username with domain N/A or default domain
       # Example: twitter@user, email@john@example.com
-      pattern = /(?<noconvert>!?[=$]?)(?<platform>[a-z0-9\-]+)@(?<username>[a-zA-Z0-9_\.\-]*[a-zA-Z0-9_\-])(?:@(?<domain>[a-zA-Z0-9\.\-]*[a-zA-Z0-9\-]))?(?=\W|$)/
+      pattern = /(?<noconvert>!?[=$]?)(?<platform>[a-z0-9\-]+)?@(?<username>[a-zA-Z0-9_\.\-]*[a-zA-Z0-9_\-])(?:@(?<domain>[a-zA-Z0-9\.\-]*[a-zA-Z0-9\-]))?(?=\W|$)/
 
       linkers = config['linkers'] || {}
 
       return input.gsub(pattern) do |match|
         noconvert = $~[:noconvert] || ''
-        
+
+        unchanged = (
+          (($~[:noconvert] && $~[:noconvert][0] == '!'?
+            $~[:noconvert][1..-1] :
+            $~[:noconvert]) || '') +
+          ($~[:platform] ? "#{$~[:platform]}" : '') +
+          "@#{$~[:username]}" +
+          ($~[:domain] ? "@#{$~[:domain]}" : '')
+        )
+
         if noconvert && noconvert[0] == '!'
           # If the match starts with '!', do not convert
           # Remove the '!' and hand back the raw text
-          match_text = "#{$~[:noconvert][1..-1]}#{$~[:platform]}@#{$~[:username]}"
-          if $~[:domain]
-            match_text += "@#{$~[:domain]}"
-          end
-          next match_text
+          next unchanged
         end
-
+        
         platform = $~[:platform]
         username = $~[:username]
         domain = $~[:domain]
+        
+        if platform.nil? || platform.empty?
+          if config['default_platform']
+            platform = config['default_platform']
+          else
+            next unchanged
+          end
+        end
         
         unless linkers.key?(platform)
           next "#{match} ^%^ Platform not supported ^%^"

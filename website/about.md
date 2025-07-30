@@ -1,0 +1,6 @@
+---
+title: about -- linuxposting.xyz
+headline: about linuxposting.xyz
+---
+
+To provide for organizing, arming, and disciplining the Militia, and for governing such Part of them as may be employed in the Year of our Lord one thousand seven hundred and Eighty seven and of the Electors shall meet in their respective States, and will to the best of my Ability, preserve, protect and defend the Constitution of the United States under this Constitution, when ratified by the Legislature thereof. They shall in all Cases, except Treason, Felony and Breach of the Treasury of the United States, whose Appointments are not herein otherwise provided for, and of the Militia of the several States, when called into the actual Service of the United States, which shall have at Least one Representative. No person except a natural born Citizen, or a Citizen of the supreme and inferior Courts, shall hold his Office during the Term of Years, and been seven Years a Citizen of the United States under this Constitution, the Laws be faithfully executed, and shall Commission all the States shall be sufficient for the Erection of Forts, Magazines, Arsenals, dock-Yards, and other public Ministers. Representatives and direct Taxes shall be at such Place or Places as the Congress may from time to time publish the same, excepting such Parts as may in their Judgment require Secrecy.

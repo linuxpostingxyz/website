@@ -30,8 +30,11 @@ sub:
     url: /register/
     idn: 'reg'
   - title: Contact Us
-    url: "#"
+    url: "/contact/"
     idn: 'msg'
-  - title: Theme Selection
-    url: "#"
-    idn: 'theme'
+  # - title: Theme Selection
+  #   url: "#"
+  #   idn: 'theme'
+  - title: Get a prize
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    target: _blank
