@@ -1,6 +1,16 @@
 ---
-title: about -- linuxposting.xyz
-headline: about linuxposting.xyz
+title: about linuxposting.xyz
+headline: About
 ---
 
-To provide for organizing, arming, and disciplining the Militia, and for governing such Part of them as may be employed in the Year of our Lord one thousand seven hundred and Eighty seven and of the Electors shall meet in their respective States, and will to the best of my Ability, preserve, protect and defend the Constitution of the United States under this Constitution, when ratified by the Legislature thereof. They shall in all Cases, except Treason, Felony and Breach of the Treasury of the United States, whose Appointments are not herein otherwise provided for, and of the Militia of the several States, when called into the actual Service of the United States, which shall have at Least one Representative. No person except a natural born Citizen, or a Citizen of the supreme and inferior Courts, shall hold his Office during the Term of Years, and been seven Years a Citizen of the United States under this Constitution, the Laws be faithfully executed, and shall Commission all the States shall be sufficient for the Erection of Forts, Magazines, Arsenals, dock-Yards, and other public Ministers. Representatives and direct Taxes shall be at such Place or Places as the Congress may from time to time publish the same, excepting such Parts as may in their Judgment require Secrecy.
+hi! we're linuxposting.xyz, a smol hobby project by some linuxposting enthusiasts
+
+we host our own wafrn instance, with the aim to spread linuxposting through the fediverse. we also maintain [the list](https://list.linuxposting.xyz/list), keeping track of all existing linux blogs on tumblr (and soon also fedi!)
+
+besides that we offer email and matrix accounts for any linux blogs that are interested :3
+
+we're planning on adding content to the website, mostly with articles about linux and tech. other future plans are a newsletter and maybe even a forum! but for now, it's a bit empty
+
+our stuff is open source! you can find our [repos on github](https://github.com/orgs/linuxpostingxyz/repositories), in case you wanna contribute or just check them out
+
+if you'd like to contact us for whatever reason, you may write an email to contact@linuxposting.xyz

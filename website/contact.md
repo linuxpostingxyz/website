@@ -5,5 +5,5 @@ headline: Contact
 
 You can contact us using the following methods:
 
-- Email: email@contact <!-- !contact@linuxposting.xyz because default domain -->
+- Email: email@contact <!-- =contact@linuxposting.xyz because default domain -->
 - Tumblr: tumblr@linuxposting
