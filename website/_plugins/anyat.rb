@@ -98,7 +98,7 @@ module Jekyll
           alias_target = pi.downcase.gsub(/[^a-z0-9\-]/, '') # Normalize alias target
           if linkers.key?(alias_target)
             pi = linkers[alias_target]
-        else
+          else
             next "#{match} ^%^ Alias target '#{alias_target}' not found ^%^"
           end
         end
