@@ -13,13 +13,13 @@ main:
     url: /
     idn: 'home'
   - title: About
-    url: /about/
+    url: /about
     idn: 'about'
   - title: Linuxposting News
-    url: /news/
+    url: /news
     idn: 'new'
   - title: Announcements
-    url: /announcements/
+    url: /announcements
     idn: 'ann'
   - title: Molly's Page
     url: https://molly.linuxposting.xyz/
@@ -27,10 +27,10 @@ main:
     target: '_blank'
 sub:
   - title: Register
-    url: /register/
+    url: /register
     idn: 'reg'
   - title: Contact Us
-    url: "/contact/"
+    url: "/contact"
     idn: 'msg'
   # - title: Theme Selection
   #   url: "#"

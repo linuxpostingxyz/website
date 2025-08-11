@@ -22,7 +22,7 @@ settings:
 #  implicit platform.
 # For example, if default_platform was twitter, then @user would be
 #  equivalent to twitter@user.
-#default_platform: email
+default_platform: email
 
 # Linkers configuration
 # Each linker defines how to format and link a specific platform or service.

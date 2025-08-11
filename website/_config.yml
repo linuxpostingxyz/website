@@ -14,10 +14,10 @@ collections_dir: articles
 collections:
   news:
     output: true
-    permalink: /news/:path
+    permalink: /news:path
   announce:
     output: true
-    permalink: /announcements/:path
+    permalink: /announcements:path
 
 # Exclude from processing.
 # The following items will not be processed, by default.
