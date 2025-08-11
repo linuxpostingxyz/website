@@ -36,5 +36,7 @@ sub:
   #   url: "#"
   #   idn: 'theme'
   - title: Get a prize
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    url: "/prize"
+    # redirect to actual link using reverse proxy
+    # url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     target: _blank
