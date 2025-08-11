@@ -1,0 +1,3 @@
+[submodule "website/molly"]
+	path = website/molly
+	url = https://github.com/linuxpostingxyz/molly_s-site.git
