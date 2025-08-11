@@ -28,7 +28,7 @@ This is how we want you to share this data with us. You can duplicate keys if yo
 > contact: !email@example.com <-- second email that you can contact us from. for example, if you ever need to get a password reset  
 > email: username  
 > matrix: username  
-> wafrn: !email@example.com <-- email that you'll be registering with on w.linuxposting.xyz
+> wafrn: username <-- username that you'll be registering with on w.linuxposting.xyz
 
 ## Response
 
