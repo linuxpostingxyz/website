@@ -14,3 +14,9 @@ we're planning on adding content to the website, mostly with articles about linu
 our stuff is open source! you can find our [repos on github](https://github.com/orgs/linuxpostingxyz/repositories), in case you wanna contribute or just check them out
 
 if you'd like to contact us for whatever reason, you may write an email to email@contact@linuxposting.xyz
+
+## admins
+
+- matrix@astreaprtcl
+  - hosts the list and mollys page on a floppy
+  - hosts the mc-server

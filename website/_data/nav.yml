@@ -32,6 +32,9 @@ sub:
   - title: Contact Us
     url: "/contact"
     idn: 'msg'
+  - title: Uptime
+    url: "https://status.linuxposting.xyz"
+    target: _blank
   # - title: Theme Selection
   #   url: "#"
   #   idn: 'theme'

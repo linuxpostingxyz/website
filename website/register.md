@@ -38,7 +38,7 @@ It may be possible that you want to impersonate a thing, but there are already a
 
 If an account for that thing does exist, but has been inactive for 6 months, we will allow you to create your accounts without need for verification
 
-If you have any issues or questions, you can contact us at support@linuxposting.xyz
+If you have any issues or questions, you can contact us at email@support@linuxposting.xyz
 
 ## Rexample
 
