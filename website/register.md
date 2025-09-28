@@ -55,5 +55,30 @@ She sends an email as follows:
 > > wafrn: baloo-file-official
 > >
 > > thank you!
+> >
+
+## Tilde Registration
+To register for the tilde, either send an email to accout@linuxposting.xyz or send Mocha a DM on matrix (@catppuccin-mocha-official:linuxposting.xyz).
+### What we need from you
+In your registration messasge, we need your desired username, your publickey, and whether you would like a site page, which will be hosted at https://tilde.linuxposting.xyz/~username
+## Accessing the tilde
+Once you've successfully registered, you can access the tilde over SSH at tilde.linuxposting.xyz on port 2568, HOWEVER this may leave your IP accessible to other tilde users, so we also offer a jump server to mask your IP. To make all this easier, we recommend adding the following to your ssh config:
+```
+Host tilde-jump
+    Hostname linuxposting.xyz
+    Port 22
+    User jumpuser
+    ForwardAgent yes
+
+Host tilde
+    HostName tilde.linuxposting.xyz
+    Port 2658
+    User molly
+    ForwardAgent yes
+    ProxyJump tilde-jump
+```
+You will then be able to simply run `ssh tilde` to connect!
+### Static site
+After registering, if you asked for a site, you will have a `~/public` folder. Any files for a static site placed here will be served at https://tilde.linuxposting.xyz/~username. Please note that any files placed in here will be viewable by all other users, so dont place any sensitive files there!
 
 It is then verified that she runs the @baloo-file-official tumblr account, and she receives the accounts requested. Notice that she didn't add a contact field. This is because she didn't have another email.
